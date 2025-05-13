@@ -1,0 +1,30 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES2020",
+//     "module": "commonjs",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "outDir": "dist",
+//     "rootDir": "src"
+//   },
+//   "include": ["src"],
+//   "exclude": ["node_modules"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",        // Ensure compiled files go to the "dist" folder
+    "rootDir": "src",        // Ensure TypeScript source files are in the "src" folder
+    "sourceMap": true        // Optional: Generates .map files for debugging
+  },
+  "include": ["src"],        // Only include files from the "src" folder
+  "exclude": ["node_modules", "dist"] // Exclude "dist" and "node_modules"
+}
